@@ -1,0 +1,97 @@
+body {
+    background-color: brown;
+    background-image: url("media/fondo2.png");
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.contenedor{
+    width: 90%;
+    height: 250px;
+    background-color: rgba(138, 118, 118, 0.692);
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.capa-uno{
+    height: 60%;
+    width: 500px;
+    float: left;
+    background-color: rgba(84, 233, 111, 0);
+    position: relative;
+    
+
+
+}
+
+.capa-form{
+    height: 40%;
+    width: 400px;
+    float:  right;
+    background-color: rgba(110, 130, 8, 0);
+    position:relative;
+}
+
+.img-slider{
+    align-self: center;
+    width: 40%;
+    height: 120%;
+    border-radius: 20px;
+    margin-top: 5%;
+    transition: 300ms;
+    float: left;
+    position: absolute;
+
+}
+
+.img-slider1{
+    transform: rotate(-15deg);
+    margin-left: 20%;
+
+}
+
+.img-slider2{
+    transform: rotate(6deg);
+    margin-left:40%;
+}
+
+.img-slider3{
+    transform: rotate(15deg);
+    margin-left: 60%;
+}
+
+.img-slider:hover{
+    transform: rotate(0deg) scale(1.5);
+    margin-left: 30%;
+    z-index: 2;
+    box-shadow: 5px 5px 2px #796d6d;
+
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 28px;
+}
+
+p,a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 300ms;
+
+}
+
+a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+button{
+    background-color: cadetblue;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+}
